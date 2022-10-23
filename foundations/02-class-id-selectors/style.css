@@ -1,0 +1,22 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.numero1{
+    background-color: pink;
+}
+
+#numero2{
+    color:blue;
+    font-size: 50px;
+}
+.numero1.numero3{
+    font-size: 30px;
+}
+#numero4{
+    background-color: greenyellow;
+    font-weight: 800;
+}
+.numero5{
+    background-color: coral;
+}
