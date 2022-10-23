@@ -1,0 +1,13 @@
+.botton1{
+    background-color: black;
+    color:white;
+    
+}
+.botton2{
+    background-color: yellow;
+}
+.botton1,.botton2{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
