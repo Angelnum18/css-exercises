@@ -4,6 +4,8 @@ html, body {
   height: 100%;
 }
 
+/* TASK COMPLETED */
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -16,6 +18,7 @@ body {
 }
 
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -23,11 +26,14 @@ body {
 }
 
 .icon {
+  display: flex;
+  
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  min-width: 45px;
+  margin: 14px;
   height: 42px;
   border-radius: 50%;
   display: flex;
@@ -35,7 +41,34 @@ body {
   justify-content: center;
 }
 
+.header {
+  width: 250px;
+  font-weight: 800;
+  display: flex;
+
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+
+}
+.header-container {
+  margin: 16px;
+  margin-left: -2px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+.footer {
+  display: flex;
+  margin: 12px;
+  
+}
+
 .close-button {
+  margin-left: auto;
   background: #eee;
   border-radius: 50%;
   color: #888;
